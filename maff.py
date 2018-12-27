@@ -170,7 +170,7 @@ while len(gorod) > len(mafki):
             print(suspect.name, "mirnii zitel")
     
     if len(gorod) > len(mafki) and len(mafki) != 0: ### proverka na konez igri
-        sheriff(gorod[0]) ### sama proverka sheriffom, vmesto ukazanogo objekta, ukazivaet polzovatel cherez input()
+        sheriff(gorod[0]) ### sama proverka sheriffom, vmesto ukazanogo objekta, ukazivaet polovatel cherez input()
     elif len(mafki) == 0:
         print("Igra okonchena. Mirnii pobedil")
         break
